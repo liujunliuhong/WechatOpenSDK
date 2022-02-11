@@ -1,21 +1,16 @@
 PODS:
-  - WechatOpenSDK-NoPay (1.9.2)
+  - WechatOpenSDK-Full (1.9.2)
 
 DEPENDENCIES:
-  - WechatOpenSDK-NoPay (from `https://github.com/liujunliuhong/WechatOpenSDK.git`)
+  - WechatOpenSDK-Full
 
-EXTERNAL SOURCES:
-  WechatOpenSDK-NoPay:
-    :git: https://github.com/liujunliuhong/WechatOpenSDK.git
-
-CHECKOUT OPTIONS:
-  WechatOpenSDK-NoPay:
-    :commit: 28c215176702f8ec2412870f553df8bf9d48895e
-    :git: https://github.com/liujunliuhong/WechatOpenSDK.git
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - WechatOpenSDK-Full
 
 SPEC CHECKSUMS:
-  WechatOpenSDK-NoPay: abe00b02af8e71b2afca014bce7f0e2c73315902
+  WechatOpenSDK-Full: c56472cd2db7cc3fcc4d8433c609b971899b13b2
 
-PODFILE CHECKSUM: 12cb6b3aa7305ef042a5fbe67bf3dfe155af7e81
+PODFILE CHECKSUM: e5ab38f7d0cc91be1487b3224bcfb310a1d8669d
 
 COCOAPODS: 1.11.2
