@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |spec|
-  spec.name                   = 'WechatOpenSDK-Full' # 包含所有功能(包含支付)
+  spec.name                   = 'WechatOpenSDK-NoPay' # 不包含支付功能
   spec.version                = '1.9.2' # 版本号和微信的保持一致
   spec.homepage               = 'https://github.com/liujunliuhong/WechatOpenSDK'
   spec.source                 = { :git => 'https://github.com/liujunliuhong/WechatOpenSDK.git', :tag => spec.version }
@@ -20,9 +20,9 @@ Pod::Spec.new do |spec|
   spec.requires_arc           = true
   spec.static_framework       = true
   spec.swift_version          = '5.0'
-  spec.vendored_libraries 	  = 'Sources/Full/libWeChatSDK.a'
-  spec.public_header_files    = 'Sources/Full/*.h'
-  spec.source_files           = 'Sources/Full/*.h'
+  spec.vendored_libraries 	  = 'Sources/NoPay/libWeChatSDK.a'
+  spec.public_header_files    = 'Sources/NoPay/*.h'
+  spec.source_files           = 'Sources/NoPay/*.h'
   spec.frameworks             = 'Security', 'UIKit', 'CoreGraphics', 'WebKit'
   spec.libraries              = 'z', 'c++', 'sqlite3.0'
   spec.pod_target_xcconfig    = { 

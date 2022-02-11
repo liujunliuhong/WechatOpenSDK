@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		521CE44463843670004151A3 /* Pods_WeChatSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAE4EEAF1F9FF8904FAA2A8 /* Pods_WeChatSDK.framework */; };
 		BFBC622127B5ED6900A09530 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBC622027B5ED6900A09530 /* AppDelegate.m */; };
 		BFBC622727B5ED6900A09530 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBC622627B5ED6900A09530 /* ViewController.m */; };
 		BFBC622A27B5ED6900A09530 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFBC622827B5ED6900A09530 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		086014797432C2E52FCABC81 /* Pods-WeChatSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChatSDK.debug.xcconfig"; path = "Target Support Files/Pods-WeChatSDK/Pods-WeChatSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		7FAE4EEAF1F9FF8904FAA2A8 /* Pods_WeChatSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeChatSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFBC621C27B5ED6900A09530 /* WeChatSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChatSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFBC621F27B5ED6900A09530 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BFBC622027B5ED6900A09530 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		BFBC622E27B5ED6B00A09530 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFBC623027B5ED6B00A09530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFBC623127B5ED6B00A09530 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D336EE52E0948F67E0C105DD /* Pods-WeChatSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChatSDK.release.xcconfig"; path = "Target Support Files/Pods-WeChatSDK/Pods-WeChatSDK.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				521CE44463843670004151A3 /* Pods_WeChatSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F03F78A94A4286686B91D2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FAE4EEAF1F9FF8904FAA2A8 /* Pods_WeChatSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61E9CB5D6AD5884995FFC8AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				086014797432C2E52FCABC81 /* Pods-WeChatSDK.debug.xcconfig */,
+				D336EE52E0948F67E0C105DD /* Pods-WeChatSDK.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BFBC621327B5ED6900A09530 = {
 			isa = PBXGroup;
 			children = (
 				BFBC621E27B5ED6900A09530 /* WeChatSDK */,
 				BFBC621D27B5ED6900A09530 /* Products */,
+				61E9CB5D6AD5884995FFC8AD /* Pods */,
+				2F03F78A94A4286686B91D2A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +103,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFBC623527B5ED6B00A09530 /* Build configuration list for PBXNativeTarget "WeChatSDK" */;
 			buildPhases = (
+				DB23C2E7FC5FE354D92DD761 /* [CP] Check Pods Manifest.lock */,
 				BFBC621827B5ED6900A09530 /* Sources */,
 				BFBC621927B5ED6900A09530 /* Frameworks */,
 				BFBC621A27B5ED6900A09530 /* Resources */,
@@ -135,6 +161,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DB23C2E7FC5FE354D92DD761 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeChatSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BFBC621827B5ED6900A09530 /* Sources */ = {
@@ -283,6 +334,7 @@
 		};
 		BFBC623627B5ED6B00A09530 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 086014797432C2E52FCABC81 /* Pods-WeChatSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +362,7 @@
 		};
 		BFBC623727B5ED6B00A09530 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D336EE52E0948F67E0C105DD /* Pods-WeChatSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
