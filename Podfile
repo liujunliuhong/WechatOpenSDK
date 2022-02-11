@@ -5,6 +5,6 @@ target 'WeChatSDK' do
   use_frameworks!
 
   # Pods for WeChatSDK
-  #pod 'WechatOpenSDK-Full', :git => "https://github.com/liujunliuhong/WechatOpenSDK.git"
-  pod 'WechatOpenSDK-NoPay', :git => "https://github.com/liujunliuhong/WechatOpenSDK.git"
+  #pod 'WechatOpenSDK-Full'
+  pod 'WechatOpenSDK-NoPay'
 end

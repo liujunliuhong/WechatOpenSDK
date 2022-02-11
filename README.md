@@ -22,6 +22,9 @@
 ## 安装
 推荐使用`CocoaPods`。请根据自己项目实际情况，导入其中一个`pod`库
 
+## 版本要求
+根据[微信SDK iOS接入指南](https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/iOS.html)，需要`iOS 12`或以上的系统
+
 #### 包含支付功能
 ```
 pod 'WechatOpenSDK-Full'

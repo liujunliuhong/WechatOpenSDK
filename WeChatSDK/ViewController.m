@@ -17,8 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-//    [WXApi registerApp:@"" universalLink:@""];
+    self.view.backgroundColor = [UIColor whiteColor];
+    [WXApi registerApp:@"" universalLink:@""];
 }
 
 
