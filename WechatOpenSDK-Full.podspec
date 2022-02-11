@@ -22,13 +22,11 @@ Pod::Spec.new do |spec|
   spec.swift_version          = '5.0'
   spec.vendored_libraries 	  = 'Sources/Full/libWeChatSDK.a'
   spec.public_header_files    = 'Sources/Full/*.h'
-  spec.source_files           = 'Sources/Full/*.h'
+  spec.source_files           = 'Sources/Full/*.{h,swift}'
   spec.frameworks             = 'Security', 'UIKit', 'CoreGraphics', 'WebKit'
   spec.libraries              = 'z', 'c++', 'sqlite3.0'
   spec.pod_target_xcconfig    = { 
       'OTHER_LDFLAGS' => '-all_load',
       'VALID_ARCHS' => 'x86_64 armv7 arm64'
-  }
-  spec.module_map             = 'Sources/Full/module.modulemap'
-  spec.preserve_paths         = 'Sources/Full/module.modulemap'
+  } 
 end
