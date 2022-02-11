@@ -6,7 +6,8 @@
 //
 
 #import "ViewController.h"
-#import <WechatOpenSDK/WXApi.h>
+//#import <WechatOpenSDK/WXApi.h>
+
 @interface ViewController ()
 
 @end

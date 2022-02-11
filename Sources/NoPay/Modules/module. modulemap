@@ -1,4 +1,5 @@
 framework module WechatOpenSDK {
-  header "../*.h"
-  export *
+  header "WechatAuthSDK.h"
+  header "WXApi.h"
+  header "WXApiObject.h"
 }
