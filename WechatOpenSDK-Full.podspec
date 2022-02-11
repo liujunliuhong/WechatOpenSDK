@@ -29,4 +29,6 @@ Pod::Spec.new do |spec|
       'OTHER_LDFLAGS' => '-all_load',
       'VALID_ARCHS' => 'x86_64 armv7 arm64'
   }
+  spec.module_map             = 'Sources/Full/module.modulemap'
+  spec.preserve_paths         = 'Sources/Full/module.modulemap'
 end
