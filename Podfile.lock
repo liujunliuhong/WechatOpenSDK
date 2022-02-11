@@ -1,3 +1,21 @@
-PODFILE CHECKSUM: b6b84b7853593dde8c0314b5659f9e0c195c576f
+PODS:
+  - WechatOpenSDK-Full (1.9.2)
+
+DEPENDENCIES:
+  - WechatOpenSDK-Full (from `https://github.com/liujunliuhong/WechatOpenSDK.git`)
+
+EXTERNAL SOURCES:
+  WechatOpenSDK-Full:
+    :git: https://github.com/liujunliuhong/WechatOpenSDK.git
+
+CHECKOUT OPTIONS:
+  WechatOpenSDK-Full:
+    :commit: 1446d3e664450313c1b749b726fb15e80a619bc4
+    :git: https://github.com/liujunliuhong/WechatOpenSDK.git
+
+SPEC CHECKSUMS:
+  WechatOpenSDK-Full: c56472cd2db7cc3fcc4d8433c609b971899b13b2
+
+PODFILE CHECKSUM: cf352b20aef74d0ace4eb266f31764135b36cf38
 
 COCOAPODS: 1.11.2

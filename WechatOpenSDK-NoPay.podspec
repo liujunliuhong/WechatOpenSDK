@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
   spec.swift_version          = '5.0'
   spec.vendored_libraries 	  = 'Sources/NoPay/libWeChatSDK.a'
   spec.public_header_files    = 'Sources/NoPay/*.h'
-  spec.source_files           = 'Sources/NoPay/*.h'
+  spec.source_files           = 'Sources/NoPay/*.{h,swift}'
   spec.frameworks             = 'Security', 'UIKit', 'CoreGraphics', 'WebKit'
   spec.libraries              = 'z', 'c++', 'sqlite3.0'
   spec.pod_target_xcconfig    = { 

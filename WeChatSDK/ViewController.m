@@ -6,7 +6,8 @@
 //
 
 #import "ViewController.h"
-//#import <WechatOpenSDK/WXApi.h>
+#import <WechatOpenSDK/WXApi.h>
+//@import WechatOpenSDK;
 
 @interface ViewController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+//    [WXApi registerApp:@"" universalLink:@""];
 }
 
 

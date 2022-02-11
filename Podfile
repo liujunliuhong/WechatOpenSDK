@@ -6,4 +6,5 @@ target 'WeChatSDK' do
 
   # Pods for WeChatSDK
   #pod 'WechatOpenSDK-Full', :git => "https://github.com/liujunliuhong/WechatOpenSDK.git"
+  pod 'WechatOpenSDK-NoPay', :git => "https://github.com/liujunliuhong/WechatOpenSDK.git"
 end
