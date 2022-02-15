@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name                   = 'WechatOpenSDK-Full' # 包含支付功能
-    spec.version                = '1.9.2' # 版本号和微信的保持一致
+    spec.version                = '1.9.2-0' # 版本号和微信的保持一致
     spec.homepage               = 'https://github.com/liujunliuhong/WechatOpenSDK'
     spec.source                 = { :git => 'https://github.com/liujunliuhong/WechatOpenSDK.git', :tag => spec.version }
     spec.summary                = 'WeChat SDK with payment function'

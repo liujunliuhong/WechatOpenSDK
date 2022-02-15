@@ -93,10 +93,6 @@ function getWechatProperties() {
 # 获取本地podspec文件的version，以便于和官方version做比较
 getLocalPodVersion
 
-# 移除pedspec文件
-rm -rf ${LOCAL_WECHAT_CONTAIN_PAY_PODSPEC_FILE_NAME}
-rm -rf ${LOCAL_WECHAT_NOT_CONTAIN_PAY_PODSPEC_FILE_NAME}
-
 # 移除压缩文件夹
 rm -rf ${LOCAL_WECHAT_CONTAIN_PAY_ZIP}
 rm -rf ${LOCAL_WECHAT_NOT_CONTAIN_PAY_ZIP}
