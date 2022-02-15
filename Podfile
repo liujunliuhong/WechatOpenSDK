@@ -6,6 +6,6 @@ target 'WeChatSDK' do
   use_frameworks!
 
   # Pods for WeChatSDK
-  pod 'WechatOpenSDK-Full'
+  pod 'WechatOpenSDK-Full', :path => 'WechatOpenSDK-Full.podspec'
   #pod 'WechatOpenSDK-NoPay'
 end

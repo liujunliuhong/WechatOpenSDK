@@ -2,15 +2,15 @@ PODS:
   - WechatOpenSDK-Full (1.9.2)
 
 DEPENDENCIES:
-  - WechatOpenSDK-Full
+  - WechatOpenSDK-Full (from `WechatOpenSDK-Full.podspec`)
 
-SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - WechatOpenSDK-Full
+EXTERNAL SOURCES:
+  WechatOpenSDK-Full:
+    :path: WechatOpenSDK-Full.podspec
 
 SPEC CHECKSUMS:
-  WechatOpenSDK-Full: c56472cd2db7cc3fcc4d8433c609b971899b13b2
+  WechatOpenSDK-Full: aae010c9e0768e27320ded89273017aae60705f5
 
-PODFILE CHECKSUM: e5ab38f7d0cc91be1487b3224bcfb310a1d8669d
+PODFILE CHECKSUM: b65135ad9db25b83be5304e5d64b721aa665d2fc
 
 COCOAPODS: 1.11.2
